@@ -1,0 +1,50 @@
+/* Estilos específicos para a lista com a classe "menuPrincipal" */
+.menuPrincipal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* Cor de fundo do menu */
+}
+
+.menuPrincipal li {
+    float: left;
+}
+
+.menuPrincipal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menuPrincipal li a:hover {
+    background-color: #555;
+}
+
+/* Estilos específicos para a página "Sobre Nós" */
+.secPadrao {
+    padding: 20px;
+}
+
+.secPadrao h2 {
+    color: #333;
+}
+
+.secPadrao p {
+    line-height: 1.6;
+}
+
+.secPadrao h3 {
+    color: #555;
+}
+
+.secPadrao .informacoes-historia {
+    margin-bottom: 20px;
+}
+
+ footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
